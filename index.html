@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <base target="_self"> 
+  <base target="_parent"> 
   <title>niivue demos for EEG, iEEG and source space connectivity</title>
   <style>
     section {
@@ -101,14 +101,5 @@
 	</section>
   </section>
 </body>
-<script>
-  window.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('a').forEach(a => {
-      if (a.href.startsWith(window.location.origin) || a.getAttribute('href').startsWith('.')) {
-        a.target = '_self';
-        a.removeAttribute('rel');
-      }
-    });
-  });
-</script>
+
 </html>
