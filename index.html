@@ -104,5 +104,14 @@
 	</section>
   </section>
 </body>
-
+</script>
+  window.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('a').forEach(a => {
+      if (a.href.startsWith(window.location.origin) || a.getAttribute('href').startsWith('.')) {
+        a.target = '_self';
+        a.removeAttribute('rel');
+      }
+    });
+  });
+</script>
 </html>
