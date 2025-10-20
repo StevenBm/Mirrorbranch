@@ -32,3 +32,10 @@ Collections of interactive web applications for the visualisation, teaching and 
 This project was funded by the Swiss National Science Foundation((209120, 209470) and la commission d'informatique of the UNIGE
 
 ![atlas](./images/SNF_logo_standard_web_color_neg_e.svg "SNSF logo")  
+## Contributors
+
+
+- Dr. Nicolas Roehri
+- Steven Beumer MSc
+- Dr. Isotta Rigoni
+- Dr. Stanislas Lagarde
